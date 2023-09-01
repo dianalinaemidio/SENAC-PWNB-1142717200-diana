@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios Financeiro para PMEs</title>
+</head>
+<body>
+    <h1>Relatório Financeiro</h1>
+
+
+ <!--
+    <nav>
+        <table>
+            <tr>
+                <td><a href="#"><h1>Relatórios Mensais</h1></a></td>
+                <td><a href="#"><h1>Gerenciamento de Riscos</h1></a></td>
+                <td><a href="#"><h1>Planejamento Financeiro</h1></a></td>
+            </tr>
+        </table>
+    </nav>
+-->
+
+
+    <div class="seleção-relatórios-orçamento">
+
+        <label for="menu">Escolha uma opção de relatório: </label>
+        <select id="opcao-relatorio" name="relatorio">
+            <option value="relatorio1">Relatórios Mensais</option>
+            <option value="relatorio2">Gerenciamento de Riscos</option>
+            <option value="relatorio3">Planejamento Financeiro</option>
+        </select>
+
+        <label for="mes">Mês:</label>
+        <select id="mes-relatorio" name="mes">
+            <option value="01"> Janeiro </option>
+            <option value="02"> Fevereiro </option>
+            <option value="03"> Março </option>
+            <option value="04"> Abril </option>
+            <option value="05"> Maio </option>
+            <option value="06"> Junho </option>
+            <option value="07"> Julho </option>
+            <option value="08"> Agosto </option>
+            <option value="09"> Setembro </option>
+            <option value="10"> Outubro </option>
+            <option value="11"> Novembro </option>
+            <option value="12"> Dezembro </option>
+        </select>
+
+        <label for="ano">Ano:</label>
+        <select id="ano-relatorio" name="tipo">
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select>
+
+        <label for="cliente">Cliente:</label>
+        <select id="cliente-relatorio" name="cliente">
+            <option value="cliente1"> NovaTech Solutions </option>
+            <option value="cliente2"> Horizon Dynamics </option>
+            <option value="cliente3"> AeroNova Innovations </option>
+            <option value="cliente4"> VivaLink Innovations </option>
+            <option value="cliente5"> CoreMatrix Dynamics </option>
+            <option value="cliente6"> ProSolutions Nexus </option>
+            <option value="cliente7"> SparkTech Ventures </option>
+            <option value="cliente8"> TerraFusion </option>
+        </select>
+
+        <button type="submit">Gerar Relatório</button>
+
+    </div>
+
+    <br>
+    <button> <a href="index.html"> Voltar </a> </button>
+
+    <footer>
+      <p>&copy; 2023 Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
