@@ -1,57 +1,60 @@
 /* Estilo para o corpo (body) */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #fff;
     margin: 0;
     padding: 0;
   }
   
- /* Estilo para o contêiner do título, logo e botão */
-.header-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #007bff;
-  color: #fff;
-}
+  /* Estilo para o contêiner do título, logo e botão */
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2b4c7e;
+    color: #fff;
+  }
 
-/* Estilo para a logo */
-.logo img {
-  max-width: 100px; 
-  margin-right: 20px; 
-}
+  /* Estilo para a logo */
+  .logo img {
+    max-width: 100px; 
+    margin-right: 20px; 
+  }
 
-/* Estilo para o título (h1) */
-h1 {
-  flex-grow: 1; 
-  font-size: 24px; /* Ajuste o tamanho do título conforme necessário */
-  margin: 0;
-  text-align: center; /* Centraliza o texto horizontalmente */
-}
+  /* Estilo para o título (h1) */
+  h1 {
+    flex-grow: 1; 
+    font-size: 24px; /* Ajuste o tamanho do título conforme necessário */
+    margin: 0;
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
 
-/* Estilo para o botão de login (button) */
-button {
-  background-color: #4d545c; 
-  color: #fff; 
-  border: none;
-  font-size: 18px; 
-  font-family: inherit; 
-  cursor: pointer;
-  padding: 10px 20px; 
-  border-radius: 4px;
-}
+  /* Estilo para o botão de login (button) */
+  button {
+    background-color: #567ebb; 
+    border: none;
+    font-size: 18px; 
+    font-family: inherit; 
+    cursor: pointer;
+    padding: 10px 20px; 
+    border-radius: 4px;
+  }
 
-button a {
-  color: #fff; 
-  text-decoration: none; 
-}
+  button a {
+    color: #fff; 
+    text-decoration: none; 
+  }
 
-/* Estilo para o botão de login quando está ativo (clicado) */
-button a:hover {
-  color: #007bff;
-  transition: none; 
-}
+  /* Estilo para o botão de login quando está ativo (clicado) */
+  button:hover {
+    background-color: #fff;
+    color: #2b4c7e;
+  }
+
+  button:hover a {
+    color: #2b4c7e;
+  }
 
 
   /* Estilo para o main */
@@ -65,21 +68,21 @@ button a:hover {
   section h2 {
     font-size: 24px;
     margin: 20px 0;
-    color: #007bff;
+    color: #2b4c7e;
   }
 
   /* Estilo para as seções (h3) */
   section h3 {
     /*font-size: 24px;*/
     margin: 20px 0;
-    color: #66CCCC;
+    color: #567ebb;
   }
   
   /* Estilo para os parágrafos nas seções (p) */
   section p {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #4d545c;
+    color: #1f1f20;
   }
   
   /* Estilo para o formulário de contato */
@@ -89,19 +92,19 @@ button a:hover {
     background-color: #fff;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0 0 10px #4d545c;
+    box-shadow: 0 0 10px #1f1f20;
   }
   
   .formulario-contato p {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #4d545c;
+    color: #1f1f20;
   }
   
   .formulario-contato label {
     display: block;
     margin-bottom: 8px;
-    color: #4d545c;
+    color: #1f1f20;
   }
   
   .formulario-contato input[type="text"],
@@ -116,7 +119,7 @@ button a:hover {
   }
   
   .formulario-contato button[type="submit"] {
-    background-color: #007bff;
+    background-color: #2b4c7e;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -126,13 +129,13 @@ button a:hover {
   }
   /* Estilo para o botão de enviar quando hover (mouse em cima) */
   .formulario-contato button[type="submit"]:hover {
-    background-color: #66CCCC;
+    background-color: #567ebb;
   }
   
   /* Estilo para o rodapé (footer) */
   footer {
     text-align: center;
-    background-color: #007bff;
+    background-color: #2b4c7e;
     color: #fff;
     padding: 10px 0;
   }

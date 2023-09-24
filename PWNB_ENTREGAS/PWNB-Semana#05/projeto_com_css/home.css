@@ -6,48 +6,54 @@ body {
     padding: 0;
   }
   
- /* Estilo para o contêiner do título, logo e botão */
- .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  /* Estilo para a logo */
-  .logo img {
-    max-width: 100px; 
-    margin-right: 20px; 
-  }
-  
-  /* Estilo para o título (h1) */
-  h1 {
-    flex-grow: 1; 
-    font-size: 24px; /* Ajuste o tamanho do título conforme necessário */
-    margin: 0;
-    text-align: center; /* Centraliza o texto horizontalmente */
-  }
+ /* Estilo para o contêiner do título, logo e menu */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #2b4c7e;
+  color: #fff;
+}
+
+/* Estilo para a logo */
+.logo img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+/* Estilo para o título (h1) no centro */
+h1 {
+  flex-grow: 1;
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
 
 /* Estilo para o menu de navegação (nav) */
 nav ul {
-    list-style: none;
-    display: flex; /* Alterado para flex para colocar itens lado a lado */
-    justify-content: center;
-    background-color: #003366;
-    padding: 10px 0;
-  }
-  
-  nav ul li {
-    margin: 0 10px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-  }
+  list-style: none;
+  display: flex; /* Alterado para flex para colocar itens lado a lado */
+  justify-content: center;
+  background-color: #2b4c7e;
+  padding: 10px 0;
+  margin: 0; /* Adicionado para remover margem padrão */
+  /* Estilo para espaçamento uniforme entre os itens do menu */
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #567ebb;
+}
 
 
     /* Estilo para o main */
@@ -57,25 +63,140 @@ nav ul {
     padding: 20px;
   }
   
-  /* Estilo para as seções (h2) */
-  section h2 {
-    font-size: 24px;
-    margin: 20px 0;
-    color: #4d545c;
+ /* Estilo para as seções (h2) */
+ section h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #2b4c7e;
   }
 
-  
+  /* Estilo para as seções (h3) */
+  section h3 {
+    /*font-size: 24px;*/
+    margin: 20px 0;
+    color: #567ebb;
+  }
+
   /* Estilo para os parágrafos nas seções (p) */
   section p {
     font-size: 16px;
     margin-bottom: 20px;
-    color: #4d545c;
+    color: #1f1f20;
   }
+
+  /* Estilo para links sem sublinhado */
+a {
+  text-decoration: none;
+  color: #1f1f20; /* Cor padrão para links */
+}
+
+/* Estilo para links quando hover (mouse em cima) */
+a:hover {
+  color: #567ebb; /* Cor quando hover */
+}
+
+/* Estilo para links quando clicados */
+a:active {
+  color: #567ebb; /* Cor quando clicado */
+}
+
+  /* Estilo para a seção de Relatórios Financeiros */
+#relatorios {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+/* Estilo para o título (h2) da seção */
+#relatorios h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #2b4c7e;
+}
+
+/* Estilo para o contêiner de seleção de relatórios */
+.selecao-relatorios-orcamento {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilo para as etiquetas dos selects */
+.selecao-relatorios-orcamento label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilo para os selects */
+.selecao-relatorios-orcamento select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Estilo para o botão Gerar Relatório */
+.selecao-relatorios-orcamento button[type="submit"] {
+  background-color: #2b4c7e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Estilo para o botão Gerar Relatório quando hover (mouse em cima) */
+.selecao-relatorios-orcamento button[type="submit"]:hover {
+  background-color: #567ebb;
+}
+
+
+/* Estilo para o chat de suporte */
+#chat-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+#chat-messages {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#chat-input input[type="text"] {
+  width: 80%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#chat-input button {
+  background-color: #2b4c7e;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#chat-input button:hover {
+  background-color: #567ebb;
+}
 
   /* Estilo para o rodapé (footer) */
   footer {
     text-align: center;
-    background-color: #007bff;
+    background-color: #2b4c7e;
     color: #fff;
     padding: 10px 0;
   }

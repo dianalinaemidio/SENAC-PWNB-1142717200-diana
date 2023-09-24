@@ -9,7 +9,7 @@ body {
   /* Estilo para o cabeçalho (h1) */
   h1 {
     text-align: center;
-    color: #333;
+    color: #2b4c7e;
     margin-top: 50px;
   }
   
@@ -20,21 +20,21 @@ body {
     background-color: #fff;
     padding: 40px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #1f1f208c;
   }
   
   /* Estilo para o título do formulário (h2) */
   .login-form h2 {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #333;
+    color: #1f1f20;
   }
   
   /* Estilo para rótulos (labels) */
   label {
     display: block;
     margin-bottom: 8px;
-    color: #333;
+    color: #1f1f20;
   }
   
   /* Estilo para os campos de entrada (inputs) */
@@ -50,7 +50,7 @@ body {
   
   /* Estilo para o botão de enviar (button) */
   button[type="submit"] {
-    background-color: #007bff;
+    background-color: #2b4c7e;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -61,30 +61,36 @@ body {
   
   /* Estilo para o botão de enviar quando hover (mouse em cima) */
   button[type="submit"]:hover {
-    background-color: #66CCCC;
+    background-color: #567ebb;
   }
   
   /* Estilo para o link "Voltar" */
-  a {
+  .link-voltar {
     display: block;
     text-align: center;
     margin-top: 20px;
     text-decoration: none;
-    color: #333;
+    color: #1f1f20;
   }
+
   
   /* Estilo para o rodapé (p) */
-  p {
+  footer {
     text-align: center;
-    color: #666;
+    color: #1f1f20;
     margin-top: 20px;
   }
   
-  /* Estilo responsivo para telas menores */
-  @media screen and (max-width: 600px) {
-    .login-form {
-      max-width: 100%;
-      padding: 10px;
-    }
+/* Estilo responsivo para telas menores */
+@media screen and (max-width: 600px) {
+  .login-form {
+    max-width: 100%;
+    padding: 10px;
   }
+
+  footer {
+    margin-top: 10px; /* Reduzir a margem superior do rodapé em telas menores */
+  }
+}
+
   
