@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const form = document.querySelector(".login-form")
     const cadastros = {
         emails: ["jonas.vieira4@gmail.com", "ryangmnascimento@gmail.com", "diana@gmail.com", "dianalinafacul@gmail.com"],
-        senhas: ["777", "123", "1203"]
+        senhas: ["777", "123", "1203", "teste"]
     };
 
     form.addEventListener("submit", function(event) {
