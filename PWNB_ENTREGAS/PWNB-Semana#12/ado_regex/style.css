@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8f7; /* Verde menta */
+}
+
+header {
+  background-color: #cfe1c6;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px; /* Ajuste conforme necessário */
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px #cfe1c6;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #cfe1c6;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+
+/* Adicione este estilo para o contêiner dos botões */
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+/* Adicione este estilo para os botões */
+.form-group button {
+  flex: 1; /* Distribui o espaço disponível igualmente entre os botões */
+}
+
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #d72e26; /* Cor mais escura para o texto */
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilo geral da tabela */
+#tabelaClientes {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Estilo para o cabeçalho da tabela */
+#tabelaClientes th {
+  background-color: #4caf50; /* Verde escuro */
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+/* Estilo para as células da tabela */
+#tabelaClientes td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Estilo para as linhas alternadas da tabela */
+#tabelaClientes tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Cinza claro para linhas pares */
+}
+
+/* Estilo para as células do cabeçalho */
+#tabelaClientes th,
+#tabelaClientes td {
+  text-align: left;
+}
+
+/* Estilo para o rodapé da tabela */
+#tabelaClientes tfoot {
+  font-weight: bold;
+}
+
+/* Estilo para a tabela responsiva em dispositivos móveis */
+@media screen and (max-width: 600px) {
+  #tabelaClientes {
+      overflow-x: auto;
+  }
+}
