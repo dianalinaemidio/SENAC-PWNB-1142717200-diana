@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.container-input {
+    position: relative;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+/* Adicionando estilo para o ComboBox */
+select {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    appearance: none; /* Remover a aparência padrão do sistema operacional */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo quando o ComboBox está focado */
+select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Estilo para as opções dentro do ComboBox */
+select option {
+    padding: 8px;
+}
+
+/* Estilo para o ícone da seta (pode variar dependendo do navegador) */
+select::-ms-expand {
+    display: none;
+}
+
+
+.botoes-acoes {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn-azul {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-verde {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.btn-vermelho {
+    background-color: #cc2e2e;
+    color: #fff;
+}

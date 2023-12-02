@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link rel="stylesheet" href="styleListar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Clientes</h1>
+        <table id="tabelaClientes">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Data de Nascimento</th>
+                    <th>CEP</th>
+                    <th>Endereço</th>
+                    <th>Número</th>
+                    <th>UF</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os clientes serão inseridos aqui dinamicamente -->
+            </tbody>
+        </table>
+        <div class="botoes-acoes">
+            <button class="btn-voltar" onclick="voltarParaInclusao()">Voltar</button>
+        </div>
+    </div>
+
+    <script src="listar.js"></script>
+</body>
+</html>
